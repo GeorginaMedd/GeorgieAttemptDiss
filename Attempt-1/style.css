@@ -1,0 +1,52 @@
+body {
+    background: lightskyblue;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.welcomepopup-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.welcomepopup {
+    width: 800px;
+    height: 600px;
+    background-color: lightpink;
+    margin: auto;
+    color: white;
+    border-radius: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modes {
+    display: flex;
+}
+
+.modes a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    background: lightsalmon;
+    border-radius: 20%;
+    margin: 30px;
+    padding: 10px 0px;
+    width: 300px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+a {
+    transition: all 0.5s;
+}

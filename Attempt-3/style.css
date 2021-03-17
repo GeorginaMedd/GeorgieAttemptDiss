@@ -1,0 +1,143 @@
+    body {
+        background: url(Main-page.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        min-height: 100vh;
+        background-size: cover;
+    }
+    
+    .mainbody {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .welcome-popup {
+        background: lightblue;
+        border-radius: 1%;
+        width: 43vw;
+        height: 32vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        color: white;
+        transition: all 3s;
+    }
+    
+    .guided-popup {
+        background: lightblue;
+        border-radius: 1%;
+        width: 43vw;
+        height: 32vw;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        color: white;
+        position: relative;
+    }
+    
+    .modes {
+        display: flex;
+    }
+    
+    .modes a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2vw;
+        background: lightskyblue;
+        border-radius: 20%;
+        margin: 30px;
+        padding: 10px 0px;
+        width: 300px;
+    }
+    
+    .explore-hover {
+        display: none;
+        font: 10px;
+    }
+    
+    .cross-div {
+        position: absolute;
+        top: 0vw;
+        right: 0.1vw;
+        transform: translate(0%, 0%);
+    }
+    
+    .cross {
+        color: white;
+        text-decoration: none;
+        font: helvetica;
+    }
+    
+    .guided-next {
+        position: absolute;
+        bottom: 2.5vw;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    
+    .guided-next a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.1vw;
+        background: lightskyblue;
+        border-radius: 30%;
+        margin: 30px;
+        padding: 10px 10px;
+        width: 300px;
+    }
+    
+    .guided-back-to-main a {
+        text-decoration: none;
+        font-size: 1vw;
+        position: absolute;
+        bottom: 1vw;
+        left: 2vw;
+    }
+    
+    .page-number-div {
+        text-decoration: none;
+        font-size: 1vw;
+        position: absolute;
+        bottom: -0.5vw;
+        right: 1vw;
+    }
+    
+    .opaque-box {
+        width: 50%;
+        height: 100%;
+        background: #e1e0df;
+        position: fixed;
+        top: 0%;
+    }
+    
+    .left {
+        left: 50vw;
+    }
+    
+    .right {
+        right: 50vw;
+    }
+    
+    a:hover {
+        opacity: 0.5;
+    }
+    
+    a {
+        transition: all 0.5s;
+    }
+    
+    .hide {
+        opacity: 0;
+    }
+    
+    .show {
+        opacity: 1;
+    }
+    
+    .partial-show {
+        opacity: 0.9
+    }
